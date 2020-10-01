@@ -49,7 +49,7 @@
 		<!-- api documentation -->
 		<swagger.version>2.9.2</swagger.version>
 		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-		<aggregate.report.dir>target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
+		<aggregate.report.dir>target/site/jacoco-aggregate/jacoco.exec</aggregate.report.dir>
 	</properties>
 
 	<dependencies>
