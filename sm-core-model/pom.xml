@@ -52,6 +52,7 @@
 		<commons-io.version>2.5</commons-io.version>
 		<jackson-version-databind>2.9.9.2</jackson-version-databind>
 		<jackson-version>2.9.9</jackson-version>
+		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../sm-core-model/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 
 	<dependencies>
