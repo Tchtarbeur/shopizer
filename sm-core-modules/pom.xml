@@ -47,7 +47,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<shopizer.version>2.7.0</shopizer.version>
-		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+		<sonar.coverage.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.coverage.jacoco.reportPath>
 	</properties>
 
 	<dependencies>
